@@ -1,0 +1,67 @@
+.main__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: aqua;
+}
+
+.img__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img__container > figure > figcaption {
+  font-size: 20px;
+  text-align: center;
+}
+.input__container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.input__container input {
+  outline: none;
+  border: none;
+}
+.child__2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: brown;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+}
+.child__2:hover {
+  background-color: white;
+  color: black;
+}
+
+.child__2 > .span__icons {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.child__2 > p {
+  padding-left: 15px;
+}
+.main__container button {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin: 25px 120px;
+}
+.main__container button:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
